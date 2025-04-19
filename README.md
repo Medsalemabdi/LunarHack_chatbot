@@ -21,19 +21,16 @@ This application aims to improve the daily life of students on campus by combini
 ## 🧭 PART 1: Navigation and Inquiry Bot
 
 An intelligent chatbot that helps users:
-- Navigate the university campus (e.g. “Where is the computer science department?”).
-- Understand administrative procedures (e.g. “How do I get a student ID card?”).
+- Navigate the university campus .
+- Understand administrative procedures .
 
-### 🔧 Tech Stack
-- **LLM**: LLaMA 2 / Mistral (via `transformers` or `Ollama`)
+### 🔧 Technologies used
+- **LLM**: LLaMA 2 7b_Q4_k_M 
 - **Embeddings**: SentenceTransformers (`all-MiniLM-L6-v2`)
-- **RAG**: FAISS or Chroma for context-aware responses
-- **Interface**: Python Flask or Streamlit (CLI/Web UI)
+- **RAG**: FAISS 
+- **Interface**: Python Flask with HTML5
 
-### 🧾 Sample Dataset
-Administrative procedures are stored as structured dictionaries with required documents and steps. Example:
-
-```json
-{
-  "Student ID Card": "Submit your enrollment certificate, a copy of your National ID, and a passport-sized photo..."
-}
+### 🧾 Requirements
+-Llama 7b_chat_Q4_K_M.gguf  from this site https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf
+-Cuda for gpu acceleration version 12.4
+-
