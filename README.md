@@ -31,6 +31,6 @@ An intelligent chatbot that helps users:
 - **Interface**: Python Flask with HTML5
 
 ### 🧾 Requirements
--Llama 7b_chat_Q4_K_M.gguf  from this site https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf
--Cuda for gpu acceleration version 12.4
+- Llama 7b_chat_Q4_K_M.gguf  from this site https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf
+- Cuda for gpu acceleration version 12.4
 -
