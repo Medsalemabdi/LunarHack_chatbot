@@ -25,7 +25,6 @@ An intelligent chatbot that helps users:
 - Understand administrative procedures .
 
 ### 🔧 Technologies used
-- **LLM**: LLaMA 2 7b_Q4_k_M 
 - **Embeddings**: SentenceTransformers (`all-MiniLM-L6-v2`)
 - **RAG**: FAISS 
 - **Interface**: Python Flask with HTML5
