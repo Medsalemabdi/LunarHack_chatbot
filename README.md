@@ -24,6 +24,8 @@ An intelligent chatbot that helps users:
 - Navigate the university campus .
 - Understand administrative procedures .
 
+
+---
 🧳 PART 2: Lost-and-Found Assistant
 An intelligent assistant designed to streamline the process of reporting and recovering lost or found items on campus.
 
