@@ -25,44 +25,38 @@ An intelligent chatbot that helps users:
 - Understand administrative procedures .
 
 🧳 PART 2: Lost-and-Found Assistant
-Un assistant intelligent conçu pour faciliter la gestion des objets perdus ou trouvés sur le campus.
+An intelligent assistant designed to streamline the process of reporting and recovering lost or found items on campus.
 
-🎯 Objectif
-Simplifier la déclaration et la recherche d’objets perdus grâce à une interface conversationnelle et un système de correspondance automatisée.
+🎯 Objective
+To simplify the declaration and search for lost items through a conversational interface and smart matching system.
 
-💬 Interface Utilisateur
-Zone de saisie : pour écrire des messages au chatbot.
+💬 User Interface
+Input field: for users to type their messages to the chatbot.
 
-Deux boutons principaux :
+Two main buttons:
 
-🔍 LOST – pour déclarer un objet perdu.
+🔍 LOST – to report a lost item.
 
-🧾 FOUND – pour déclarer un objet trouvé.
+🧾 FOUND – to report a found item.
 
-⚙️ Fonctionnement
-Déclaration :
+⚙️ How It Works
+Reporting:
 
-Si vous avez perdu un objet, décrivez-le aussi précisément que possible.
+If you have lost an item, describe it in as much detail as possible.
 
-Si vous avez trouvé un objet, entrez également une description détaillée.
+If you have found an item, also provide a detailed description.
 
-Correspondance intelligente :
+Smart Matching:
 
-Le chatbot compare automatiquement les descriptions saisies.
+The chatbot automatically compares entered descriptions.
 
-Si une correspondance est trouvée, il vous affiche le numéro de téléphone de la personne concernée pour permettre une prise de contact directe.
+If a match is detected, it will display the phone number of the relevant person so you can contact them directly.
 
-🔁 Modes d’interaction
-Ce module, comme celui de navigation, fonctionne avec un système de modes exclusifs :
+🔁 Interaction Modes
+This module, like the Navigation and Inquiry Bot, works with exclusive usage modes:
 
-L’utilisateur active un mode (LOST ou FOUND) en cliquant sur l’un des boutons.
+The user activates a mode (LOST or FOUND) by clicking one of the buttons.
 
-Le mode actif reste en surbrillance jusqu’à ce qu’un autre soit sélectionné.
+The selected mode remains highlighted until another one is chosen.
 
-Cela garantit une interaction claire et ciblée.
-
-### 🔧 Technologies used
-- **Embeddings**: SentenceTransformers (`all-MiniLM-L6-v2`)
-- **RAG**: FAISS 
-- **Interface**: Python Flask with HTML5
-
+This system ensures clear and focused interactions.
